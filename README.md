@@ -5,6 +5,7 @@
   * [Decorator syntax and properties](#decoratorsyntaxandproperties)
   * [Usage](#usage)
   * [License](#license)
+  
 
 ## **ABOUT**
 
@@ -12,6 +13,7 @@ Simple function debounce decorator written in Typescript.
 * Has no dependencies.
 * Very tiny < 1kb
 * Very easy to use
+
 
 ## **INSTALL**
 
@@ -21,13 +23,16 @@ Install package by npm
   npm install --save-dev debounce-decorator-ts
 ```
 
+
 ## **DECORATOR SYNTAX AND PROPERTIES**
+
 
 **Syntax**
 
 ```javascript
    @debounceFn(debounceTime, timeoutPropertyName);
 ```
+
 
 **Properties**
 
@@ -36,12 +41,14 @@ Install package by npm
 **Default value**: `100` (ms)  
 **Argument type**: number ( miliseconds )  
 
-*`timeoutPropertyName`  
+* `timeoutPropertyName`  
 **Action**: Setting timeout property name ( for clearTimeout )  
 **Default value**: `'timeoutFn'`  
 **Argument type**: string   
 
+
 ## **USAGE**
+
 
 **Basic usage**
 
@@ -62,6 +69,7 @@ Install package by npm
     const myClass = new MyClass;
 ```
 
+
 **Override default properties value**
 
 ```javascript
@@ -81,6 +89,8 @@ Install package by npm
     const myClass = new MyClass;
 ```
 
+
 ## **LICENSE**
+
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License) License
