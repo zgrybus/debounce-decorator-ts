@@ -2,7 +2,7 @@
 
   * [About](#about)
   * [Install](#install)
-  * [Decorator syntax and properties](#decoratorsyntaxandproperties)
+  * [API](#api)
   * [Usage](#usage)
   * [License](#license)
   
@@ -24,10 +24,9 @@ Install package by npm
 ```
 
 
-## **DECORATOR SYNTAX AND PROPERTIES**
+## **API**
 
-
-**Syntax**
+**SYNTAX**
 
 ```javascript
    @debounceFn(debounceTime, timeoutPropertyName);
