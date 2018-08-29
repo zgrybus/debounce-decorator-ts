@@ -14,6 +14,7 @@ Simple function debounce decorator written in Typescript.
 * Very tiny < 1kb
 * Very easy to use
 
+An live example of function use: [Live Example](https://zgrybus.github.io/debounce-decorator-ts/)
 
 ## **INSTALL**
 
