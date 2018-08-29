@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Debounce Decorator Example</title>
+    <meta name="author" content="Krzysztof Nofz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="main-title">
+        <span>Scroll this Page!</span>
+        <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+            <path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#fff;stroke-width:20px;"/>
+            <path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#fff;stroke-width:20px;"/>
+        </svg>
+        <span class="author">by <a href="https://github.com/zgrybus" target="blank">Krzysztof Nofz</a></span>
+    </h1>
+    <div class="container">
+        <main class="main">
+            <h2 class="table-title">
+                Scroll event
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="none" d="M0 0h24v24H0V0z"/>
+                    <path fill="#ffcc5c" d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/>
+                </svg>
+                
+            </h2>
+            <section class="column">
+                <h3 class="title">Optimized - @debounceFn(250)</h2>
+                <span class="with-debounce"></span>
+            </section>  
+            <section class="column">
+                <h3 class="title">Not optimized - standardCall</h2>
+                <span class="without-debounce"></span>
+            </section>  
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
