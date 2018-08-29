@@ -1,19 +1,22 @@
 {
   "name": "debounce-decorator-ts",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "1.0.1",
+  "description": "Simple debounce decorator for functions",
+  "keywords": [
+    "debounce", "debounceTime", "decorator", "debounce-decorator", "typescript", "optimize"
+  ],
   "main": "dist/debounce-decorator-ts.umd.js",
   "module": "dist/debounce-decorator-ts.es5.js",
   "typings": "dist/types/debounce-decorator-ts.d.ts",
   "files": [
     "dist"
   ],
-  "author": "Krzysztof Nofz <Krzysztof.Nofz@comarch.pl>",
+  "author": "Krzysztof Nofz <krzysztof.nofz@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/zgrybus/debounce-decorator-ts"
   },
+  "homepage": "https://github.com/zgrybus/debounce-decorator-ts",
   "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
