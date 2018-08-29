@@ -1,9 +1,9 @@
 # **DEBOUNCE-DECORATOR**
 
   * [About](#about)
-  * [Install](#Install)
-  * [Decorator syntax and properties](#Decoratorsyntaxandproperties)
-  * [Usage](#Usage)
+  * [Install](#install)
+  * [Decorator syntax and properties](#decoratorsyntaxandproperties)
+  * [Usage](#usage)
   * [License](#license)
 
 ## **ABOUT**
@@ -31,15 +31,15 @@ Install package by npm
 
 **Properties**
 
-* `debounceTime`
-**Action**: Setting debounceTimer
-**Default value**: `100` (ms)
-**Argument type**: number ( miliseconds )
+* `debounceTime`  
+**Action**: Setting debounceTimer  
+**Default value**: `100` (ms)  
+**Argument type**: number ( miliseconds )  
 
-* `timeoutPropertyName`
-**Action**: Setting timeout property name ( for clearTimeout )
-**Default value**: `'timeoutFn'`
-**Argument type**: string 
+*`timeoutPropertyName`  
+**Action**: Setting timeout property name ( for clearTimeout )  
+**Default value**: `'timeoutFn'`  
+**Argument type**: string   
 
 ## **USAGE**
 
